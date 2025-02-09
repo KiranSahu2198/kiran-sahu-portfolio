@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import Awards from './components/Awards';
 
 const App: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const App: React.FC = () => {
         <Route path="/skills" element={<Skills />} />
         <Route path="/hero" element={<Hero />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/projects" element={<Awards />} />
       </Routes>
       <Footer />
     </Router>
